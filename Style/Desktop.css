@@ -11,3 +11,14 @@
     padding: 5px;
     width: 250px;
 }
+
+.Explore-Courses
+{
+    border: 2px solid black;
+    padding 5px;
+}
+
+div.Explore-Courses img {
+    width: 200px;
+    height: 125px;
+}
