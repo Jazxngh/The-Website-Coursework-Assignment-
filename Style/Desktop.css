@@ -1,4 +1,9 @@
 /*adding a . for (.class name) for more effective css styling*/
+.Cantor-Heading
+{
+    border: 2px solid black; 
+    padding: 5px;
+}
 
 .Learn-about-us 
 {
