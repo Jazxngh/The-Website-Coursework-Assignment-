@@ -5,22 +5,47 @@
     padding: 5px;
 }
 
-.Learn-about-us 
-{
+.container {
+    display: flex;
+}
+
+.Learn-about-us
+{ 
     border: 1px solid black;
-    padding: 5px;
-    width: 250px;
+    padding: 5px; /*will help give space to surrounding areas*/
+    width: 60%;
+    margin-right: 20px;
+    position: relative; /*Helps with precise img precision*/
+}
+
+div.Learn-about-us img {
+
+    border: 1px solid black;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-top: 10px;
+
 }
 
 .Explore-Courses
 {
-    border: 2px solid black;
-    padding 5px;
-    width: 250px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40%;
+    position: relative;
 }
 
 div.Explore-Courses img {
     width: 200px;
     height: auto;
     display: block;
+    border: 1px solid black;
+    top: 100%;
+    left: 10%;
+    margin-top: 10px;
+    position: absolute
 }
+
