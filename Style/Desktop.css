@@ -13,7 +13,7 @@
 { 
     border: 1px solid black;
     padding: 5px; /*will help give space to surrounding areas*/
-    width: 60%;
+    width: 50%;
     margin-right: 20px;
     position: relative; /*Helps with precise img precision*/
 }
@@ -34,17 +34,19 @@ div.Learn-about-us img {
 {
     border: 1px solid black;
     padding: 5px;
-    width: 40%;
+    width: 50%;
+    margin-right:5%;
+    margin-left: 5%;
     position: relative;
 }
 
 div.Explore-Courses img {
-    width: 200px;
+    width:100%;
     height: auto;
     display: block;
     border: 1px solid black;
     top: 100%;
-    left: 10%;
+    left: 0%;
     margin-top: 10px;
     position: absolute
 }
