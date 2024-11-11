@@ -1,8 +1,9 @@
 /*adding a . for (.class name) for more effective css styling*/
 .Cantor-Heading
 {
-    border: 2px solid black; 
+    border: 1px solid black; 
     padding: 5px;
+    margin-left: 5px;
 }
 
 .container {
@@ -15,21 +16,20 @@
     padding: 5px; /*will help give space to surrounding areas*/
     width: 50%;
     margin-right: 20px;
-    margin-left: 5px;
-
-    position: relative; /*Helps with precise img precision*/
+    margin-left: 5px; /*Adds space between margin and container's (parent) side, also caused the div.xxx img (child) to position like that*/
+    position: relative; 
 }
 
 div.Learn-about-us img {
 
     border: 1px solid black;
-    padding: 5px; /*will help give space to surrounding areas*/
-    width: 50%;
-    margin-right: 20px;
-    margin-top: 10px;
-    position: absolute;
+    width: 100%; /* width 100% means full width ratio to the entire div block*/
+    height: auto; /* fill out width without stretching*/
+    display: block; /*Changes from inline to block*/
+    margin-top: 20px; 
     top: 100%;
-
+    left: 0%; /*This is to line up the images to the div container perfectly*/
+    position: absolute;
 
 }
 
@@ -44,13 +44,16 @@ div.Learn-about-us img {
 }
 
 div.Explore-Courses img {
+    border: 1px solid black;
     width:100%;
     height: auto;
     display: block;
-    border: 1px solid black;
     top: 100%;
     left: 0%;
-    margin-top: 10px;
+    margin-top: 20px; /* As this Add space from the top of the content which is the img*/
     position: absolute
 }
 
+/* Relative means relative to normal spot but left/right/top/bottom/centred*/
+/* Container, ideally needs to be relative*/
+/* Inside contenet ideally needs to be absolute*/
