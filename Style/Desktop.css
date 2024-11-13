@@ -57,3 +57,9 @@ div.Explore-Courses img {
 /* Relative means relative to normal spot but left/right/top/bottom/centred*/
 /* Container, ideally needs to be relative*/
 /* Inside contenet ideally needs to be absolute*/
+
+
+.About-Us-Text
+{
+  width: 60%;
+}
