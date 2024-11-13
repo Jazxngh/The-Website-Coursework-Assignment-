@@ -59,7 +59,13 @@ div.Explore-Courses img {
 /* Inside contenet ideally needs to be absolute*/
 
 
-.About-Us-Text
+.About-Us-Text-Container
 {
   width: 60%;
+}
+
+div.About-Us-Text-Container img
+
+{
+    width: 40%;
 }
