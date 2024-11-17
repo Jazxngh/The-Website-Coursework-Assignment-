@@ -1,9 +1,46 @@
 /*adding a . for (.class name) for more effective css styling*/
+
+body{
+    margin: none;
+}
+
 .Cantor-Heading
 {
     border: 1px solid black; 
     padding: 5px;
     margin-left: 5px;
+}
+
+.CantorNav ul{
+    list-style-type: None;
+    background-color: #523E0D;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; 
+}
+
+.CantorNav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.CantorNav a:hover{
+    background-color: #F2A903;
+}
+
+.CantorNav li{
+    float: left;
+
+}
+
+
+/*Main Section*>*/
+
+main{
+    padding: 10px;
 }
 
 .container {
