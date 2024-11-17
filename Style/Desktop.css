@@ -2,15 +2,19 @@
 
 body{
     margin: none;
+    background-color:#ffc813;
 }
 
+/*Cantor Collage title*/
 .Cantor-Heading
 {
     border: 1px solid black; 
+    color: white;
+    background-color: #523E0D;
     padding: 5px;
-    margin-left: 5px;
 }
 
+/*Cantor Navigation Bar?*/
 .CantorNav ul{
     list-style-type: None;
     background-color: #523E0D;
@@ -43,6 +47,7 @@ main{
     padding: 10px;
 }
 
+/*Container, holding 2 sub containers*/
 .container {
     display: flex;
 }
@@ -50,6 +55,8 @@ main{
 .Content
 { 
     border: 1px solid black;
+    background-color:#523E0D;
+    color: white;
     padding: 5px; /*will help give space to surrounding areas*/
     width: 50%;
     margin-right: 20px;
@@ -57,7 +64,12 @@ main{
     position: relative; 
 }
 
-div.Content img {
+.content a{
+    color:white;
+}
+
+/*div for tag, Content with capital to work properly, img for img obviously*/
+div.Content img { 
 
     border: 1px solid black;
     width: 100%; /* width 100% means full width ratio to the entire div block*/
@@ -73,11 +85,17 @@ div.Content img {
 .Explore-Courses
 {
     border: 1px solid black;
+    background-color:#523E0D;
+    color: white;
     padding: 5px;
     width: 50%;
     margin-right:5%;
     margin-left: 5%;
     position: relative;
+}
+
+.Explore-Courses a{
+    color:white; /*To make href in the 2nd sub container (explore-courses) white since 1st sub container is content*/
 }
 
 div.Explore-Courses img {
@@ -96,13 +114,28 @@ div.Explore-Courses img {
 /* Inside contenet ideally needs to be absolute*/
 
 
-.About-Us-Text-Container
+
+/*About Us Page*/
+
+.LearnAboutUsTitle
 {
+    border: 1px solid black; 
+    color: white;
+    background-color: #523E0D;
+    padding: 5px;
+}
+
+.LearnAboutUsInfoSection
+{
+  background-color: #523E0D;
+  color: white;
   width: 60%;
 }
 
-div.About-Us-Text-Container img
+div.LearnAboutUsInfoSection img
 
 {
     width: 40%;
 }
+
+
