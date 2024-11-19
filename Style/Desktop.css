@@ -117,6 +117,7 @@ div.Explore-Courses img {
 
 /*About Us Page*/
 
+
 .LearnAboutUsTitle
 {
     border: 1px solid black; 
@@ -125,17 +126,35 @@ div.Explore-Courses img {
     padding: 5px;
 }
 
-.LearnAboutUsInfoSection
+
+.Learn-Container
+{
+    display: flex;
+    align-items: flex;
+    margin: 20px;
+}
+
+
+.L-ContainerSection1 
 {
   background-color: #523E0D;
   color: white;
-  width: 60%;
+  width: 50%;
+  position: relative;
 }
 
-div.LearnAboutUsInfoSection img
+.L-ContainerSection1 p
+{
+  color: white;
+  margin: 0;
+}
+
+
+.L-ContainerSection2
 
 {
-    width: 40%;
+    width: 50%;
+    height: auto;
 }
 
 
