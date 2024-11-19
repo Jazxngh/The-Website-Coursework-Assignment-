@@ -163,3 +163,13 @@ div.Explore-Courses img {
 }
 
 
+/*Facilities Page*/
+
+.FacilitiesTitle
+
+{
+    border: 1px solid black; 
+    color: white;
+    background-color: #523E0D;
+    padding: 5px;
+}
