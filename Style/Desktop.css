@@ -173,3 +173,26 @@ div.Explore-Courses img {
     background-color: #523E0D;
     padding: 5px;
 }
+
+.Facilites-Container
+{
+    display: flex;
+    width: 40%;
+    flex-direction: column; /*This'll help with keeping everything vertical!*/
+}
+
+.Facilites-PText
+{
+    border: 1px;
+    color: white;
+    background-color:#523E0D;
+    padding: 10px;
+}
+
+.Facilites-PList
+{
+    border: 1px;
+    color: white;
+    background-color:#523E0D;
+    padding: 10px;
+}
