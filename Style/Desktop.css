@@ -103,9 +103,9 @@ div.Explore-Courses img {
     width:100%;
     height: auto;
     display: block;
+    margin-top: 20px; /* As this Add space from the top of the content which is the img*/
     top: 100%;
     left: 0%;
-    margin-top: 20px; /* As this Add space from the top of the content which is the img*/
     position: absolute
 }
 
@@ -113,6 +113,11 @@ div.Explore-Courses img {
 /* Container, ideally needs to be relative*/
 /* Inside contenet ideally needs to be absolute*/
 
+.F-Btn-Tainer
+{
+    padding: 20px;
+    text-align: center;
+}
 
 
 /*About Us Page*/
