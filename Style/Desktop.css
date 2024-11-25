@@ -1,18 +1,27 @@
 /*adding a . for (.class name) for more effective css styling*/
 
-body{
-    margin: none;
-    background-color: #ffc235;
+/*General Selectors*/
+
+p /*Makes all p text this style, more efficient than using specific style property*/
+{
+    border: 1px;
+    color: white;
+    background-color:#523E0D;
 }
 
-/*Cantor Collage title*/
-.Cantor-Heading
+h1 /*Makes all h1 this style, more efficient than using specific style property*/
 {
     border: 1px solid black; 
     color: white;
     background-color: #523E0D;
     padding: 5px;
 }
+
+body{
+    margin: none;
+    background-color: #ffc235;
+}
+
 
 /*Cantor Navigation Bar?*/
 .CantorNav ul{
@@ -53,7 +62,7 @@ main{
     display: flex;
 }
 
-.Content
+.DesignCourse
 { 
     border: 1px solid black;
     background-color:#523E0D;
@@ -65,12 +74,12 @@ main{
     position: relative; 
 }
 
-.content a{
+.DesignCourse a{
     color:white;
 }
 
 /*div for tag, Content with capital to work properly, img for img obviously*/
-div.Content img { 
+div.DesignCourse img { 
 
     border: 1px solid black;
     width: 100%; /* width 100% means full width ratio to the entire div block*/
@@ -83,7 +92,7 @@ div.Content img {
 
 }
 
-.Explore-Courses
+.ComputingCourse
 {
     border: 1px solid black;
     background-color:#523E0D;
@@ -95,11 +104,11 @@ div.Content img {
     position: relative;
 }
 
-.Explore-Courses a{
+.ComputingCourse a{
     color:white; /*To make href in the 2nd sub container (explore-courses) white since 1st sub container is content*/
 }
 
-div.Explore-Courses img {
+div.ComputingCourse img {
     border: 1px solid black;
     width:100%;
     height: auto;
@@ -109,6 +118,8 @@ div.Explore-Courses img {
     left: 0%;
     position: absolute
 }
+
+
 
 /* Relative means relative to normal spot but left/right/top/bottom/centred*/
 /* Container, ideally needs to be relative*/
@@ -123,16 +134,6 @@ div.Explore-Courses img {
 
 
 /*About Us Page*/
-
-
-.LearnAboutUsTitle
-{
-    border: 1px solid black; 
-    color: white;
-    background-color: #523E0D;
-    padding: 5px;
-}
-
 
 .Learn-Container
 {
@@ -167,15 +168,6 @@ div.Explore-Courses img {
 
 /*Facilities Page*/
 
-.FacilitiesTitle
-
-{
-    border: 1px solid black; 
-    color: white;
-    background-color: #523E0D;
-    padding: 5px;
-}
-
 .Facilites-Container
 {
     display: flex;
@@ -209,4 +201,14 @@ div.Explore-Courses img {
     color: white;
     background-color:#523E0D;
     padding: 10px;
+}
+
+
+/*Find Us*/
+
+.FindUsText p
+{
+    border: 1px;
+    color: white;
+    background-color:#523E0D;
 }
