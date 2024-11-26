@@ -69,12 +69,13 @@ main{
     color: white;
     padding: 5px; /*will help give space to surrounding areas*/
     width: 50%;
-    margin-right: 20px;
-    margin-left: 5px; /*Adds space between margin and container's (parent) side, also caused the div.xxx img (child) to position like that*/
+    margin-right: 20px; /*Remember margin-right-left etc Adds space between margin and container's (parent) side, also caused the div.xxx img (child) to position like that*/
     position: relative; 
+    border-radius: 25px;
 }
 
-.DesignCourse a{
+.DesignCourse a
+{
     color:white;
 }
 
@@ -88,6 +89,7 @@ div.DesignCourse img {
     margin-top: 20px; 
     top: 100%;
     left: 0%; /*This is to line up the images to the div container perfectly*/
+    border-radius: 25px;
     position: absolute;
 
 }
@@ -101,6 +103,7 @@ div.DesignCourse img {
     width: 50%;
     margin-right:5%;
     margin-left: 5%;
+    border-radius: 25px;
     position: relative;
 }
 
@@ -116,6 +119,7 @@ div.ComputingCourse img {
     margin-top: 20px; /* As this Add space from the top of the content which is the img*/
     top: 100%;
     left: 0%;
+    border-radius: 25px;
     position: absolute
 }
 
@@ -140,6 +144,7 @@ div.ComputingCourse img {
     display: flex;
     align-items: flex;
     margin: 10px;
+    border-radius: 25px;
 }
 
 
@@ -148,6 +153,7 @@ div.ComputingCourse img {
   background-color: #523E0D;
   color: white;
   width: 50%;
+  border-radius: 25px;
   position: relative;
 }
 
@@ -165,6 +171,7 @@ div.ComputingCourse img {
     width: 50%;
     height: auto;
     margin: 10px;
+    border-radius: 25px;
 }
 
 
@@ -173,28 +180,20 @@ div.ComputingCourse img {
 .Facilites-Container
 {
     display: flex;
+    flex-direction: column;
 }
 
 .FTainer1
 {
   width: 50%;
   left: auto;
-  flex-direction: column; /*This'll help with keeping everything vertical!*/
+  flex-direction: column;
 }
 
 .FTainer2 img
 {
   width: 50%;
-  right: auto;
-  flex-direction: column; /*This'll help with keeping everything vertical!*/
-  position: absolute;
-}
-
-.Facilites-PText
-{
-    border: 1px;
-    color: white;
-    background-color:#523E0D;
+  flex-direction: column;
 }
 
 .Facilites-PList
@@ -205,12 +204,13 @@ div.ComputingCourse img {
     padding: 10px;
 }
 
+.student-container
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
 
 /*Find Us*/
 
-.FindUsText p
-{
-    border: 1px;
-    color: white;
-    background-color:#523E0D;
-}
