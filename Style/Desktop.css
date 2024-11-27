@@ -180,21 +180,29 @@ div.ComputingCourse img {
 .Facilites-Container
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 40px;
 }
 
-.FTainer1
+.col2{
+    flex:1 1 50%;
+}
+
+.col2 img{
+    width:100%;
+    height:auto;
+}
+
+/* .FTainer1
 {
   width: 50%;
-  left: auto;
-  flex-direction: column;
+
 }
 
 .FTainer2 img
 {
   width: 50%;
-  flex-direction: column;
-}
+} */
 
 .Facilites-PList
 {
