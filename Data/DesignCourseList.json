@@ -1,0 +1,102 @@
+{
+  "DesData": [
+    {
+      "CourseTitle": "Graphic Design",
+      "CourseType": "Undergraduate",
+      "CourseSummary": "Develop your own creative and innovative approach to graphic design by challenging and exploring contemporary practices through a series of exciting and diverse projects.",
+      "CourseAwardName": "BA (Honours)",
+      "UcasCode": "W210",
+      "UcasPoints": 112,
+      "YearOfEntry": "2025/26",
+      "ModeOfAttendance": "Full-time",
+      "StudyLength": "3 / 4 Years",
+      "HasFoundationYear": "false",
+      "CourseSubject": "Art and design",
+      "NoLongerRecruiting": "false"
+    },
+    {
+      "CourseTitle": "Interior Architecture and Design",
+      "CourseType": "Undergraduate",
+      "CourseSummary": "Develop your own creative and sustainable approach to interior architecture and design by challenging and exploring contemporary practices through a series of exciting and diverse projects.",
+      "CourseAwardName": "BA (Honours)",
+      "UcasCode": "W250",
+      "UcasPoints": 112,
+      "YearOfEntry": "2025/26",
+      "ModeOfAttendance": "Full-time",
+      "StudyLength": "3 / 4 Years",
+      "HasFoundationYear": "false",
+      "CourseSubject": "Art and design",
+      "NoLongerRecruiting": "false"
+    },
+    {
+      "CourseTitle": "Jewellery, Materials and Design",
+      "CourseType": "Undergraduate",
+      "CourseSummary": "Develop your own creative and innovative approach to jewellery design, challenging and exploring contemporary practices through new technologies and craft techniques.",
+      "CourseAwardName": "BA (Honours)",
+      "UcasCode": "W721",
+      "UcasPoints": 112,
+      "YearOfEntry": "2025/26",
+      "ModeOfAttendance": "Full-time",
+      "StudyLength": "3 / 4 Years",
+      "HasFoundationYear": "false",
+      "CourseSubject": "Art and design",
+      "NoLongerRecruiting": "false"
+    },
+    {
+      "CourseTitle": "Game Design and Development",
+      "CourseType": "Undergraduate",
+      "CourseSummary": "Study a course with a distinctive, practice-based approach to games design &ndash; gaining a diverse skill set and useful experience within the field.",
+      "CourseAwardName": "BA (Honours)",
+      "UcasCode": "A112",
+      "UcasPoints": 112,
+      "YearOfEntry": "2025/26",
+      "ModeOfAttendance": "Full-time",
+      "StudyLength": "3 / 4 Years",
+      "HasFoundationYear": "false",
+      "CourseSubject": "Art and design",
+      "NoLongerRecruiting": "false"
+    },
+    {
+      "CourseTitle": "Product Design",
+      "CourseType": "Undergraduate",
+      "CourseSummary": "Develop a highly creative approach to producing innovative 'future-facing' products by exploring and challenging design through a series of exciting and diverse projects.",
+      "CourseAwardName": "BSc (Honours)",
+      "UcasCode": "D009",
+      "UcasPoints": 112,
+      "YearOfEntry": "2025/26",
+      "ModeOfAttendance": "Full-time",
+      "StudyLength": "3 / 4 Years",
+      "HasFoundationYear": "false",
+      "CourseSubject": "Art and design",
+      "NoLongerRecruiting": "false"
+    },
+    {
+      "CourseTitle": "Product Design",
+      "CourseType": "Undergraduate",
+      "CourseSummary": "Develop a creative and innovative approach to product design and service innovation by challenging and exploring contemporary practices through a series of exciting and diverse projects.",
+      "CourseAwardName": "BA (Honours)",
+      "UcasCode": "W240",
+      "UcasPoints": 112,
+      "YearOfEntry": "2025/26",
+      "ModeOfAttendance": "Full-time",
+      "StudyLength": "3 / 4 Years",
+      "HasFoundationYear": "false",
+      "CourseSubject": "Art and design",
+      "NoLongerRecruiting": "false"
+    },
+    {
+      "CourseTitle": "Digital Media Production",
+      "CourseType": "Undergraduate",
+      "CourseSummary": "Design and produce new media products in film, animation, interactive media, web, apps, VR, cross-media and games.",
+      "CourseAwardName": "BA (Honours)",
+      "UcasCode": "W212",
+      "UcasPoints": 112,
+      "YearOfEntry": "2025/26",
+      "ModeOfAttendance": "Full-time",
+      "StudyLength": "3 / 4 Years",
+      "HasFoundationYear": "false",
+      "CourseSubject": "Art and design",
+      "NoLongerRecruiting": "false"
+    }
+  ]
+}
