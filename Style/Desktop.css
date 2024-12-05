@@ -151,8 +151,10 @@ div.ComputingCourse img {
 .Learn-Container
 {
     display: flex;
+    flex-direction: row;
     align-items: flex;
     margin: 10px;
+    gap: 2px;
     border-radius: 20px;
 }
 
@@ -183,6 +185,16 @@ div.ComputingCourse img {
     border-radius: 20px;
 }
 
+.StaffColumn
+{
+    flex: 1 1 50%;
+}
+.StaffInformationSection
+{
+     display: flex;
+    flex-direction: column-reverse;
+}
+
 
 /*Facilities Page ================================================= */
 
@@ -201,17 +213,6 @@ div.ComputingCourse img {
     width:100%;
     height:auto;
 }
-
-/* .FTainer1
-{
-  width: 50%;
-
-}
-
-.FTainer2 img
-{
-  width: 50%;
-} */
 
 .Facilites-PList
 {
@@ -233,6 +234,14 @@ div.ComputingCourse img {
 /*Find Us=========================================*/
 
 
+/*Contact us==========================================*/
+
+.ContactUsForm
+{
+    color: white;
+    background-color:#523E0D;
+    padding: 10px;
+}
 
 /*ComputingCourseList ==========================================================*/
 
