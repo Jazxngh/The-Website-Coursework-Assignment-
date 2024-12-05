@@ -7,6 +7,8 @@ p /*Makes all p text this style, more efficient than using specific style proper
     border: 1px;
     color: white;
     background-color:#523E0D;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 h1 /*Makes all h1 this style, more efficient than using specific style property*/
@@ -50,10 +52,10 @@ body{
 }
 
 
-/*Main Section*>*/
+/*Main Section===========================*>*/
 
 main{
-    padding: 25px;
+    padding: 10px;
     margin-left: 0;
 }
 
@@ -71,7 +73,7 @@ main{
     width: 50%;
     margin-right: 20px; /*Remember margin-right-left etc Adds space between margin and container's (parent) side, also caused the div.xxx img (child) to position like that*/
     position: relative; 
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .DesignCourse a
@@ -89,7 +91,7 @@ div.DesignCourse img {
     margin-top: 20px; 
     top: 100%;
     left: 0%; /*This is to line up the images to the div container perfectly*/
-    border-radius: 25px;
+    border-radius: 20px;
     position: absolute;
 
 }
@@ -103,7 +105,7 @@ div.DesignCourse img {
     width: 50%;
     margin-right:5%;
     margin-left: 5%;
-    border-radius: 25px;
+    border-radius: 20px;
     position: relative;
 }
 
@@ -119,7 +121,7 @@ div.ComputingCourse img {
     margin-top: 20px; /* As this Add space from the top of the content which is the img*/
     top: 100%;
     left: 0%;
-    border-radius: 25px;
+    border-radius: 20px;
     position: absolute
 }
 
@@ -137,14 +139,14 @@ div.ComputingCourse img {
 }
 
 
-/*About Us Page*/
+/*About Us Page===================================*/
 
 .Learn-Container
 {
     display: flex;
     align-items: flex;
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 
@@ -153,7 +155,7 @@ div.ComputingCourse img {
   background-color: #523E0D;
   color: white;
   width: 50%;
-  border-radius: 25px;
+  border-radius: 20px;
   position: relative;
 }
 
@@ -171,11 +173,11 @@ div.ComputingCourse img {
     width: 50%;
     height: auto;
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 
-/*Facilities Page*/
+/*Facilities Page ================================================= */
 
 .Facilites-Container
 {
@@ -210,6 +212,7 @@ div.ComputingCourse img {
     color: white;
     background-color:#523E0D;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .student-container
@@ -220,7 +223,7 @@ div.ComputingCourse img {
 
 
 
-/*Find Us*/
+/*Find Us=========================================*/
 
 
 
