@@ -245,6 +245,30 @@ div.ComputingCourse img {
     font-size: 30px;
 }
 
+/*Info for Business*/
+
+.BusinessContainer
+{
+    width: 75%;
+}
+
+.BusinessContainer ul
+{
+    border: 1px;
+    color: white;
+    background-color:#523E0D;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
 /*ComputingCourseList ==========================================================*/
 
 
