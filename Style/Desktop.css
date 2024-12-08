@@ -31,6 +31,20 @@ body{
     background-color: #ffc235;
 }
 
+/*Main Section===========================*>*/
+
+main{
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: 0;
+}
+
+footer{
+    background-color:#523E0D;
+}
+
+
+
 
 /*Cantor Navigation Bar?==============================================================*/
 .CantorNav ul{
@@ -59,18 +73,10 @@ body{
 }
 
 
-/*Main Section===========================*>*/
-
-main{
-    margin-top: 15px;
-    padding: 10px;
-    margin-left: 0;
-}
 
 /*Container of index page, holding 2 sub containers*/
 .container {
     display: flex;
-    margin-bottom: 25px;
 }
 
 .DesignCourse
@@ -96,7 +102,7 @@ div.DesignCourse img {
     border: 1px solid black;
     width: 100%; /* width 100% means full width ratio to the entire div block*/
     display: block; /*Changes from inline to block*/
-    margin-top: 20px; 
+    margin-top: 40px; 
     top: 100%;
     left: 0%; /*This is to line up the images to the div container perfectly*/
     border-radius: 20px;
@@ -125,23 +131,16 @@ div.ComputingCourse img {
     border: 1px solid black;
     width:100%;
     display: block;
-    margin-top: 20px; /* As this Add space from the top of the content which is the img*/
+    margin-top: 40px; /* As this Add space from the top of the content which is the img*/
     top: 100%;
     left: 0%;
     border-radius: 20px;
-    position: absolute
+    position: absolute;
 }
 
 /* Relative means relative to normal spot but left/right/top/bottom/centred*/
 /* Container, ideally needs to be relative*/
 /* Inside contenet ideally needs to be absolute*/
-
-.F-Btn-Tainer
-{
-    padding: 20px;
-    text-align: center;
-    position: relative;
-}
 
 
 /*About Us Page===================================*/
