@@ -267,7 +267,14 @@ border-radius: 8px;
 }
 }
 
-/*Contact us==========================================*/
+/*Contact us===============================================================================*/
+
+.FormContainer
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 
 .ContactUsForm
 {
