@@ -1,6 +1,6 @@
 /*adding a . for (.class name) for more effective css styling*/
 
-/*General Selectors*/
+/*General Selectors==========================================*/
 
 p /*Makes all p text this style, more efficient than using specific style property*/
 {
@@ -44,8 +44,6 @@ footer{
 }
 
 
-
-
 /*Cantor Navigation Bar?==============================================================*/
 .CantorNav ul{
     list-style-type: None;
@@ -71,7 +69,6 @@ footer{
     float: left;
 
 }
-
 
 
 /*Container of index page, holding 2 sub containers*/
@@ -143,7 +140,7 @@ div.ComputingCourse img {
 /* Inside contenet ideally needs to be absolute*/
 
 
-/*About Us Page===================================*/
+/*About Us Page============================================================================================*/
 
 .Learn-Container
 {
@@ -193,7 +190,7 @@ div.ComputingCourse img {
 }
 
 
-/*Facilities Page ================================================= */
+/*Facilities Page ========================================================================================= */
 
 .Facilites-Container
 {
@@ -230,8 +227,45 @@ div.ComputingCourse img {
 
 
 
-/*Find Us=========================================*/
+/*Find Us=========================================================================================*/
 
+/*Learned all these slider animation through youtube tutorial*/
+img
+{
+    width: 75%; /*Tweaks slider image*/
+}
+
+.FindUsImgContainer
+{
+overflow: hidden;
+border: 1px solid black;
+border-radius: 8px;
+}
+
+.FindUsSlider
+{
+    width: 75%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+@keyframes slide{
+    0%{
+    transform: translateX();
+}
+25%{
+    transform: translateX(-100%);
+}
+50%{
+    transform: translateX(-100%);
+}
+55%{
+    transform: translateX(-200%);
+}
+75%{
+    transform: translateX(-200%);
+}
+}
 
 /*Contact us==========================================*/
 
