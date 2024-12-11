@@ -9,9 +9,10 @@
     <link rel = "Stylesheet" href = "style/Desktop.css">
 </head>
 <body>
+
     <h1> Learn about us </h1>
 
-    <nav class ="CantorNav">
+     <nav class ="CantorNav">
         <ul>
           <li><a href ="index.html"> Home</a></li>
           <li><a href ="AboutUs.html"> About us</a></li>
@@ -21,9 +22,8 @@
         </ul>
       </nav>
 
-    <div class = "Learn-Container" >
-
-        <div class = "L-ContainerSection1"> </p>
+<div class = "Learn-Container" >
+    <div class = "L-ContainerSection1"> </p>
          
         <p>
             Cantor College was established in 1989 to specialize in Computing and Design.
@@ -36,11 +36,11 @@
             both as a student and in your future career.   
 
         </p>
-
         <img class = "L-ContainerSection2" src="Images/Group-ppl.jpg" alt = "Picture of a group" >
+    </div>
     
-    <div class ="StaffColumn">
-        <div class ="StaffInformationSection">
+<div class ="StaffColumn">
+    <div class ="StaffInformationSection">
         <p> Information for Staff </p>
         <p> News: Cantor College recently hosted the Software Engineering student of the year awards. Short listed candidates from around the country attended the one day event</p>
         <p> Academic Registry: For academic regulations, assessment, awards, student records and course validation.</p>
@@ -50,9 +50,14 @@
         <p> Marketing Services: The Marketing Team will help promote events and new courses. They will help with press release preparation.</p>
         <p> Personel Services: All staff pay and conditions enquiries should be directed to the Personnel Services team on the 3rd floor.</p>
         <p> Facilities: The facilities are responsible for the general care and maintenance of the College. All enquiries via the main helpdesk</p>
-        </div>
     </div>
+ </div>
 </div>
-</div>
+
+<!--The biggest thing I learnt to prevent wrong containers etc is that...
+you need to get the main container as a whole, then have 2 mini containers inside like this page...
+but the 1st container div need to close before the 2nd container opens up and it'll work...
+as long as the main container div that holds the entire thing closes at the end -->
+
 </body>
 </html>
