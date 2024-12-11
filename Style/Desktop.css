@@ -159,6 +159,7 @@ div.ComputingCourse img {
   color: white;
   width: 50%;
   border-radius: 20px;
+  margin-top: 15px;
   position: relative;
 }
 
@@ -170,12 +171,13 @@ div.ComputingCourse img {
 }
 
 
-.L-ContainerSection2
+.L-ContainerSection1Photo
 
 {
-    width: 50%;
+    width: 100%;
     height: auto;
-    margin: 10px;
+    margin: 0px; /*To keep it to the left nicely*/
+    margin-top: 25px;
     border-radius: 20px;
 }
 
@@ -185,7 +187,7 @@ div.ComputingCourse img {
 }
 .StaffInformationSection
 {
-     display: flex;
+    display: flex;
     flex-direction: column;
 }
 
