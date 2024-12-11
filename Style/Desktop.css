@@ -229,7 +229,6 @@ div.ComputingCourse img {
 
 /*Find Us=========================================================================================*/
 
-/*Learned all these slider animation through youtube tutorial*/
 img
 {
     width: 75%; /*Tweaks slider image*/
@@ -249,7 +248,9 @@ border-radius: 8px;
     animation: slide 16s infinite;
 }
 
-@keyframes slide{
+
+/*Keyframes means it'll start from old current style to new current style*/
+@keyframes slide{ 
     0%{
     transform: translateX();
 }
@@ -267,6 +268,9 @@ border-radius: 8px;
 }
 }
 
+/*Each is whats going to happen, so 25% into the process, the pictures will translate*/
+/*If it gets to 50%, it repeats until the last one which loops back to the start*/
+
 /*Contact us===============================================================================*/
 
 .FormContainer
@@ -283,9 +287,10 @@ border-radius: 8px;
     padding: 15px;
     width: 50%;
     font-size: 30px;
+    border-radius: 20px;
 }
 
-/*Info for Business*/
+/*Info for Business===========================================================================================*/
 
 .BusinessContainer
 {
