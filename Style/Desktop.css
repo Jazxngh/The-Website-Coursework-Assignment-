@@ -1,4 +1,10 @@
-/*adding a . for (.class name) for more effective css styling*/
+/*This works with the media query for mobile first and will change the max width etc to make it more breathable and professional*/
+
+.outerContainer
+{
+    max-width: 70%;
+    margin: auto;
+}
 
 /*General Selectors==========================================*/
 
@@ -72,12 +78,6 @@ footer{
 
 
 /*Container of index page, holding 2 sub containers*/
-
-.outerContainer
-{
-    max-width: 70%;
-    margin: auto;
-}
 
 .container {
     display: flex;

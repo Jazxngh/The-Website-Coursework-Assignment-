@@ -16,6 +16,8 @@ body {
     border-radius: 20px;
 }
 
+/*Cantor Navigation Mobile ================================================================== */
+
 nav.CantorNav ul {
  flex-direction: row;
 }
@@ -24,6 +26,33 @@ nav.CantorNav ul {
 nav.CantorNav li {
     flex: 1;
 }
+
+.CantorNav ul{
+    list-style-type: None;
+    background-color: #523E0D;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; 
+}
+
+.CantorNav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+.CantorNav li{
+    float: middle;
+}
+
+
+
+
+
+/**/
 
 .Facilites-Container {
     flex-direction: row;
@@ -41,6 +70,10 @@ h1 {
 p,ul{
     font-size: 1.1em;
     margin: 20px;
+    background-color:#523E0D;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 /*Note: 1em is around 16px*/
