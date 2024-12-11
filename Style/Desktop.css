@@ -198,8 +198,9 @@ div.ComputingCourse img {
 {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
 }
+
 
 .col2{
     flex:1 1 50%;
@@ -218,7 +219,6 @@ div.ComputingCourse img {
     padding: 10px;
     border-radius: 20px;
 }
-
 
 
 .student-container
