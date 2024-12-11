@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             //This creates new divs per course
             courses.forEach(course => {
                 const courseItem = document.createElement('div');
-                courseItem.classList.add('course-item');  // Add a class for styling
+                courseItem.classList.add('ccourseItem');  // Add a class for styling
                 
                 // course detail/key from ComputingCourseList.Json is used in here
                 courseItem.innerHTML = `

@@ -98,6 +98,7 @@ div.DesignCourse img {
 
     border: 1px solid black;
     width: 100%; /* width 100% means full width ratio to the entire div block*/
+    height: auto;
     display: block; /*Changes from inline to block*/
     margin-top: 40px; 
     top: 100%;
@@ -127,6 +128,7 @@ div.DesignCourse img {
 div.ComputingCourse img {
     border: 1px solid black;
     width:100%;
+    height: auto;
     display: block;
     margin-top: 40px; /* As this Add space from the top of the content which is the img*/
     top: 100%;
@@ -315,7 +317,17 @@ border-radius: 8px;
 
 
 
+/*DesignCourseList*/
 
+.dcourseItem
+{
+    width: 50%;
+}
+
+.ccourseItem
+{
+    width: 50%
+}
 
 
 
