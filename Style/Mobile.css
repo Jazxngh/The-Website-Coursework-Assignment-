@@ -4,6 +4,43 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffc235;
-  }
+}
 
-  
+.Learn-Container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex;
+    margin: 10px;
+    gap: 2px;
+    border-radius: 20px;
+}
+
+nav.CantorNav ul {
+ flex-direction: row;
+}
+
+
+nav.CantorNav li {
+    flex: 1;
+}
+
+.Facilites-Container {
+    flex-direction: row;
+    gap: 10px;
+}
+
+.col2 {
+    flex: 1 1 50%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p,ul{
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+/*Note: 1em is around 16px*/

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Will fetch info from the ComputingCourseList.json file in the data folder
+    // Will fetch info/data from the ComputingCourseList.json file into the data folder
     fetch('./data/ComputingCourseList.json') 
         .then(response => {
             if (!response.ok) {
@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const courses = data.CompData;  // Access data from the "CompData" key in the JSON
 
-            //This creates new divs per course
+            //This creates brand new divs per course
             courses.forEach(course => {
                 const courseItem = document.createElement('div');
                 courseItem.classList.add('ccourseItem');  // Add a class for styling
                 
-                // course detail/key from ComputingCourseList.Json is used in here
+                // course detail/key from ComputingCourseList.Json is used in here, using the same key from the json file can generate new inner html
                 courseItem.innerHTML = `
                     <h2>${course.CourseTitle}</h2>
                     <p>${course.CourseSummary}</p>

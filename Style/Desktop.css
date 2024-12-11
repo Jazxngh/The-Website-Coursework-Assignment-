@@ -72,6 +72,13 @@ footer{
 
 
 /*Container of index page, holding 2 sub containers*/
+
+.outerContainer
+{
+    max-width: 70%;
+    margin: auto;
+}
+
 .container {
     display: flex;
 }
@@ -159,6 +166,7 @@ div.ComputingCourse img {
 {
   background-color: #523E0D;
   color: white;
+  font-size: 20px;
   width: 50%;
   border-radius: 20px;
   margin-top: 15px;
@@ -193,6 +201,16 @@ div.ComputingCourse img {
     flex-direction: column;
 }
 
+.BusInfoHref
+{
+    border: 1px;
+    color: white;
+    background-color:#523E0D;
+    padding: 10px;
+    width: 25%;
+    border-radius: 20px;
+}
+
 
 /*Facilities Page ========================================================================================= */
 
@@ -212,6 +230,17 @@ div.ComputingCourse img {
     width:100%;
     height:auto;
 }
+
+
+.Facilites-PText
+{
+    border: 1px;
+    color: white;
+    background-color:#523E0D;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 
 .Facilites-PList
 {
@@ -253,7 +282,9 @@ border-radius: 8px;
 }
 
 
+/*Inspired by bunch of youtube videos*/
 /*Keyframes means it'll start from old current style to new current style*/
+
 @keyframes slide{ 
     0%{
     transform: translateX();
@@ -272,8 +303,8 @@ border-radius: 8px;
 }
 }
 
-/*Each is whats going to happen, so 25% into the process, the pictures will translate*/
-/*If it gets to 50%, it repeats until the last one which loops back to the start*/
+/*Each is whats going to happen, so 25% into the process, the pictures will translate across x.. */
+/*If it gets to 50%, it repeats until the last one goes across back to the start*/
 
 /*Contact us===============================================================================*/
 
@@ -314,6 +345,10 @@ border-radius: 8px;
 
 /*ComputingCourseList ==========================================================*/
 
+.ccourseItem
+{
+    width: 50%
+}
 
 
 
@@ -322,41 +357,4 @@ border-radius: 8px;
 .dcourseItem
 {
     width: 50%;
-}
-
-.ccourseItem
-{
-    width: 50%
-}
-
-
-
-
-/* Media queries ====================== */
-@media (min-width: 768px) {
-    nav.CantorNav ul {
-        flex-direction: row;
-    }
-}
-
-nav.CantorNav li {
-    flex: 1;
-}
-
-.Facilites-Container{
-    flex-direction: row;
-    gap: 40px;
-}
-
-.col2{
-    flex: 1 1 50%;
-}
-
-h1{
-    font-size: 2em;
-}
-
-p,ul{
-    font-size: 1.1em;
-    margin: 20px;
 }
