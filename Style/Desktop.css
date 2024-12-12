@@ -3,13 +3,25 @@
 #digitalClock {
     display: flex;
     justify-content: space-between; /*Instead of left or right space, this adds space in the middle between two inner html*/
-    margin: 20px auto;        /*This just keeps it nicely in the middle away from the top*/
-    max-width: 950px;         /*This controls the max width of time on left and date on right*/
+    margin: 20px auto;              /*This just keeps it nicely in the middle away from the top*/
+    max-width: 950px;               /*This controls the max width of time on left and date on right*/
     padding: 15px;
     background-color: #f9f9f9;
     border-radius: 20px;
 }
 
+/*For fun and excitement =)*/
+
+#digitalClock div:hover{ 
+    background-color: #b5b5b5;       /*This highlights colour when hovered*/
+    font-size: 50px;                   /*This will be the size of the text when hovered*/
+    border-radius: 20px;               /*This will keep the highlighted background curved*/
+    padding: 5px;                      /*This gives the hover effect some space around*/
+    transition: all 0.5s ease-in-out;  /*This causes the hover effect to be smooth not instant*/
+}
+
+
+/*outerContainer*/
 /*This works with the media query for mobile first and will change the max width etc to make it more breathable and professional*/
 
 .outerContainer
@@ -180,7 +192,7 @@ div.ComputingCourse img {
 {
   background-color: #523E0D;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   width: 50%;
   border-radius: 20px;
   margin-top: 15px;
