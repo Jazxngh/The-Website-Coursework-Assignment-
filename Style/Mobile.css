@@ -65,3 +65,24 @@ p,ul{
 }
 
 /*Note: 1em is around 16px*/
+
+
+/*Contact Us Form Mobile*/
+
+.FormContainer
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.ContactUsForm
+{
+    color: white;
+    background-color:#523E0D;
+    padding: 15px;
+    width: 50%;
+    font-size: 30px; 
+    margin-top: 50px; /*To bring it down, center a bit more since the form's flex is already justified as middle*/
+    border-radius: 20px;
+}
