@@ -95,6 +95,7 @@ footer{
 
 .CantorNav a:hover{
     background-color: #F2A903;
+    transition: 0.6s ease-in;
 }
 
 .CantorNav li{
