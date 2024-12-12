@@ -6,15 +6,6 @@ body {
     background-color: #ffc235;
 }
 
-.Learn-Container
-{
-    display: flex;
-    flex-direction: row;
-    align-items: flex;
-    margin: 10px;
-    gap: 2px;
-    border-radius: 20px;
-}
 
 /*Cantor Navigation Mobile ================================================================== */
 
@@ -47,9 +38,6 @@ nav.CantorNav li {
 .CantorNav li{
     float: middle;
 }
-
-
-
 
 
 /**/
