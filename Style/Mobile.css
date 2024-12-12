@@ -1,3 +1,5 @@
+/*JS identifiers*/
+
 #digitalClock {
     display: flex;
     justify-content: space-between; /*Instead of left or right space, this adds space in the middle between two inner html*/
@@ -7,6 +9,8 @@
     background-color: #f9f9f9;
     border-radius: 20px;
 }
+
+/*General*/
 
 body {
     font-family: helvetica, arial, sans-serif;
