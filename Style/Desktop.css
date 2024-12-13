@@ -187,6 +187,15 @@ div.ComputingCourse img {
     border-radius: 20px;
 }
 
+.Learn-Container p:hover
+{
+    background-color: #291c00;                
+    color: rgb(255, 255, 255);
+    border-radius: 20px;              
+    padding: 18px;                      
+    transition: all 0.3s ease-in;
+}
+
 
 .L-ContainerSection1 
 {
@@ -263,6 +272,15 @@ div.ComputingCourse img {
     gap: 20px;
 }
 
+.Facilites-Container p:hover /* p: hover is to make it more dynamic and easier to read*/
+{
+    background-color: #291c00;                
+    color: rgb(255, 255, 255);
+    border-radius: 20px;              
+    padding: 18px;                      
+    transition: all 0.3s ease-in;
+}
+
 
 .col2{
     flex:1 1 50%;
@@ -304,6 +322,15 @@ div.ComputingCourse img {
 
 
 /*Find Us=========================================================================================*/
+
+.FindUsText p:hover
+{
+    background-color: #291c00;                 
+    color: rgb(255, 255, 255);
+    border-radius: 20px;              
+    padding: 18px;                      
+    transition: all 0.3s ease-in;
+}
 
 img
 {
@@ -385,6 +412,14 @@ border-radius: 8px;
     border-radius: 20px;
 }
 
+.BusinessContainer p:hover
+{
+    background-color: #291c00;                 
+    color: rgb(255, 255, 255);
+    border-radius: 20px;              
+    padding: 18px;                      
+    transition: all 0.3s ease-in;
+}
 
 /*ComputingCourseList ==========================================================*/
 
