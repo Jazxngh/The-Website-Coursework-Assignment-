@@ -13,7 +13,7 @@
 /*For fun and excitement =)*/
 
 #digitalClock div:hover{ 
-    background-color: #b5b5b5;       /*This highlights colour when hovered*/
+    background-color: #d8d8d8;       /*This highlights colour when hovered*/
     font-size: 50px;                   /*This will be the size of the text when hovered*/
     border-radius: 20px;               /*This will keep the highlighted background curved*/
     padding: 5px;                      /*This gives the hover effect some space around*/
@@ -95,12 +95,11 @@ footer{
 
 .CantorNav a:hover{
     background-color: #F2A903;
-    transition: 0.6s ease-in;
+    transition: 0.45s ease-in;
 }
 
 .CantorNav li{
     float: left;
-
 }
 
 
@@ -228,14 +227,30 @@ div.ComputingCourse img {
     flex-direction: column;
 }
 
+
+.BusInfoHrefContainer
+{
+    display: flex;
+    justify-items: center ;
+    justify-content: center;
+}
+
 .BusInfoHref
 {
     border: 1px;
     color: white;
     background-color:#523E0D;
     padding: 10px;
-    width: 25%;
+    width: 48%;
     border-radius: 20px;
+}
+
+.BusInfoHrefContainer a:hover
+{
+    background-color: #F2A903;                
+    border-radius: 20px;              
+    padding: 5px;                      
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -358,7 +373,7 @@ border-radius: 8px;
 
 .BusinessContainer
 {
-    width: 75%;
+    width: 100%;
 }
 
 .BusinessContainer ul
