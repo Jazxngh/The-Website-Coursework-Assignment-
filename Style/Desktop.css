@@ -14,7 +14,7 @@
 
 #digitalClock div:hover{ 
     background-color: #d8d8d8;       /*This highlights colour when hovered*/
-    font-size: 50px;                   /*This will be the size of the text when hovered*/
+    font-size: 40px;                   /*This will be the size of the text when hovered*/
     border-radius: 20px;               /*This will keep the highlighted background curved*/
     padding: 5px;                      /*This gives the hover effect some space around*/
     transition: all 0.5s ease-in-out;  /*This causes the hover effect to be smooth not instant*/
