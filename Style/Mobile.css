@@ -20,6 +20,14 @@ body {
     background-color: #ffc235;
 }
 
+h1 /*Makes all h1 this style, more efficient than using specific style property*/
+{
+    border: 1px solid black; 
+    color: white;
+    background-color: #523E0D;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 /*Cantor Navigation Mobile ================================================================== */
 
