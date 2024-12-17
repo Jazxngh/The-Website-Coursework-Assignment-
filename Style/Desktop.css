@@ -435,6 +435,7 @@ border-radius: 8px;
 .CourseHeading
 {
     border-radius: 20px;
+    padding: 10px; /*To make js heading spaced too*/
 }
 
 
@@ -445,7 +446,7 @@ border-radius: 8px;
     display: flex;
     justify-content: center;
     justify-items: center;
-    padding:10px;
+    padding: 5px;
     width: 100%
 }
 
