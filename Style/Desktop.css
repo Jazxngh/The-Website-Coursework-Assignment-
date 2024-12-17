@@ -51,6 +51,7 @@ h1 /*Makes all h1 this style, more efficient than using specific style property*
     border-radius: 20px;
 }
 
+/*Same reasons as general ids like p and h1*/
 h2{
     border: 1px solid black; 
     color: white;
@@ -105,7 +106,7 @@ footer{
 
 /*Container of index page, holding 2 sub containers*/
 
-.container {
+.HomeContainer {
     display: flex;
 }
 
@@ -126,7 +127,7 @@ footer{
     color:white;
 }
 
-/*div for tag, Content with capital to work properly, img for img obviously*/
+/*div for tag, Content with capital to work properly, img for image obviously*/
 div.DesignCourse img { 
 
     border: 1px solid black;
