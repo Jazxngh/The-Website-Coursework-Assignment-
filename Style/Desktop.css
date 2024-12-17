@@ -425,14 +425,27 @@ border-radius: 8px;
 
 .ccourseItem
 {
-    width: 50%
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding:10px;
+    width: 100%
 }
 
+.CourseHeading
+{
+    border-radius: 20px;
+}
 
 
 /*DesignCourseList*/
 
 .dcourseItem
 {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding:10px;
+    width: 100%
 }
+

@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 // course detail/key from ComputingCourseList.Json is used in here
                 courseItem.innerHTML = `
-                    <h2>${course.CourseTitle}</h2>
+                    <h2 class ="CourseHeading">${course.CourseTitle}</h2>
                     <p>${course.CourseSummary}</p>
                     <p><strong>Duration:</strong> ${course.StudyLength}</p>
                     <p><strong>UCAS Points:</strong> ${course.UcasPoints}</p>

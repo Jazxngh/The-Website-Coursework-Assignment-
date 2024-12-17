@@ -19,11 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 // course detail/key from ComputingCourseList.Json is used in here, using the same key from the json file can generate new inner html
                 courseItem.innerHTML = `
-                    <h2>${course.CourseTitle}</h2>
+                    <h2 class = "CourseHeading">${course.CourseTitle}</h2> 
                     <p>${course.CourseSummary}</p>
                     <p><strong>Duration:</strong> ${course.StudyLength}</p>
                     <p><strong>UCAS Points:</strong> ${course.UcasPoints}</p>
                 `;
+
+                //Added h2 class for styling to match with regular html styles!
 
                 // Adds the course div to the container
                 CompCourListContainer.appendChild(courseItem);
