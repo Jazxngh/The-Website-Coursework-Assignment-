@@ -1,4 +1,4 @@
-/*JS identifiers*/
+/*JS identifiers and Classes*/
 
 #digitalClock {
     display: flex;
@@ -8,6 +8,12 @@
     padding: 15px;
     background-color: #f9f9f9;
     border-radius: 20px;
+}
+
+.CourseHeading
+{
+    border-radius: 20px;
+    margin-left: 5px;
 }
 
 /*General*/
@@ -62,7 +68,7 @@ nav.CantorNav li {
 }
 
 
-/**/
+/*Mobile First overlap tweaks*/
 
 .Facilites-Container {
     flex-direction: row;
