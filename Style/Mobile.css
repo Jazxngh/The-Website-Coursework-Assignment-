@@ -94,6 +94,24 @@ p,ul{
 
 /*Note: 1em is around 16px*/
 
+/*About Us page*/
+
+.BusInfoHrefContainer
+{
+    display: flex;
+    justify-items: center ;
+    justify-content: center;
+}
+
+.BusInfoHref
+{
+    border: 1px;
+    color: white;
+    background-color:#523E0D;
+    padding: 10px;
+    width: 48%;
+    border-radius: 20px;
+}
 
 /*Contact Us Form Mobile*/
 
